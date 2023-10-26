@@ -12,4 +12,9 @@ public class TestController {
         return valueToSquare * valueToSquare;
     }
 
+    @GetMapping("/hello")
+    public String test() {
+        return "Hello";
+    }
+
 }

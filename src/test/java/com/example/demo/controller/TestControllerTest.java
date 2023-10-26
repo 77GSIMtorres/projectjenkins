@@ -18,4 +18,12 @@ class TestControllerTest {
 		assertEquals(25, testController.getSquaredValue(5L));
 	}
 
+	@Test
+	void test() {
+		TestController testController = new TestController();
+		String hello = "Hello";
+		assertTrue(hello.equals(testController.test()));
+
+	}
+
 }
